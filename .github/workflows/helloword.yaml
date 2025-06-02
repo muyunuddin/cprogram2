@@ -5,6 +5,7 @@ on:
    - main
 job:
  hello_github_actions:
+  runs-on: ubuntu-latest
    steps:
     - name: checkout code
       used: actions/checkout@v3
