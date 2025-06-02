@@ -1,13 +1,12 @@
-name: hello worldd
-on: 
- push:
-  branches:
-   - main
-jobs:
-  first_hello_world_gh_try_job:
-   runs-on: ubuntu-latest
-   steps:  
+name: hello world
+ on:
+  push:
+   brnach:
+    - main
+  job: hello_world_jon
+    runs-on: ubuntu-latest
+     steps:
       - name: checkout code
-        uses: actions/checkout@v3
+         uses: actions/checkout@v3
       - name: print message
-        run: echo "hello welcome to git actions"
+         run: echo "this is to test git hub actions"
