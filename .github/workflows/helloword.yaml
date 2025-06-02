@@ -15,7 +15,7 @@ jobs:
       runs-on: ubuntu-latest
       steps: 
          - name: checkout code
-           uses: action/checkout@v3
+           uses: actions/checkout@v3
          - name: setup python
            uses: action/setu-python@v3
            with:
