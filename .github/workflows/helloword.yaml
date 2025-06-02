@@ -1,8 +1,8 @@
-name: hellowordjob
+name: hello word job
 on:
  push:
   branches:
-   -main
+   - main
 job:
   hello-word-try
    runs-on: ubuntu-latest
@@ -11,3 +11,4 @@ job:
          uses: actions/checkout@v3
       - name: print message
          run: echo "hello this is to test gh action"
+    
