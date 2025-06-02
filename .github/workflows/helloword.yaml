@@ -19,7 +19,7 @@ jobs:
     - name: setup env
       uses: actions/setupp@v3
       with:
-      python-version:3.9
+       python-version:3.9
     - name: installing depenencies
       run:
        python -m pip install --upgrade pip
