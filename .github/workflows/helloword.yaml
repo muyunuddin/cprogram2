@@ -2,6 +2,7 @@ name: hello word program
 on:
  push:
   branches:
+   - main
 job:
  hello_github_actions:
    steps:
