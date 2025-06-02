@@ -4,9 +4,9 @@ on:
   branches:
    - main
  jobs:
-  hello_world_job:
-   runs-on: ubuntu-latest
-   steps:
+   hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
      - name: checkout code
        uses: actions/checkout@v3
      - name: print message
