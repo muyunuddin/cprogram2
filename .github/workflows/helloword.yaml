@@ -1,11 +1,11 @@
 name: hello word program
- on:
-  push:
-   branches:
- job:
-  hello_github_actions:
-    steps:
-     - name: checkout code
-       used: actions/checkout@v3
-     - name: print message
-       run: echo " hii git hub actions"
+on:
+ push:
+  branches:
+job:
+ hello_github_actions:
+   steps:
+    - name: checkout code
+      used: actions/checkout@v3
+    - name: print message
+      run: echo " hii git hub actions"
