@@ -17,7 +17,7 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v3
     - name: setup env
-      uses: actions/setup@v3
+      uses: actions/setup-python@v3
       with:
        python-version: 3.9
     - name: installing depenencies
